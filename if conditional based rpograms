@@ -1,0 +1,84 @@
+i/p         o/p 
+6         Divisible by 3
+14      Not Divisible by 3 and remainder is 2
+
+
+import java.util.*;
+class Main 
+{
+    public static void main (String[] args) {
+Scanner obj=new Scanner(System.in);
+int a=obj.nextInt();
+if(a%3==0)
+System.out.print("Divisible by 3");
+else 
+System.out.print("Not Divisible by 3 and Remainder is "+a%3);
+    }
+}
+
+
+
+i/p        o/p 
+19        Fail 
+95        Excellent 
+60        Average 
+
+0-34      Fail
+35-60    Average 
+61-80    Good 
+81-100    Excellent 
+101       Invalid Input 
+
+
+
+
+
+import java.util.*;
+class Main 
+{
+    public static void main (String[] args) {
+        Scanner obj=new Scanner(System.in);
+        int a=obj.nextInt();
+        if(a>=0 && a<=34)
+        System.out.print("Fail");
+        else if(a>=35 && a<=60)
+        System.out.print("Average");
+        else if(a>=61 && a<=80)
+        System.out.print("Good");
+        else if(a>=81 && a<=100)
+        System.out.print("Excellent");
+        else 
+        System.out.print("Invalid Input");
+        
+    }
+}
+i/p              o/p
+2  2 2         Equilateral Triangle
+2  5 5         Isosceles Triangle
+2 1  3         Scalene Triangle
+import java.util.*;
+class Main 
+{
+    public static void main (String[] args) {
+        int s1,s2,s3;
+        Scanner obj=new Scanner(System.in);
+        s1=obj.nextInt();
+        s2=obj.nextInt();
+        s3=obj.nextInt();
+        if(s1==s2 && s2==s3)
+        System.out.print("Equilateral Triangle");
+        else if(s1==s2 ||s2==s3||s3==s1)
+        System.out.print("Isosceles Triangle");
+        else 
+        System.out.print("Scalene Triangle");
+        
+    }
+}
+
+
+
+
+
+
+
+
