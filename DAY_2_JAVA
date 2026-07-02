@@ -1,0 +1,27 @@
+if(condition/expression)
+{
+    //set of statements;
+}
+if(true)-->condition always true 
+
+
+MCQ-1
+if(false)
+System.out.print("hi");
+else 
+System.out.print("hello");
+MCQ-2
+int a=5;
+if(a==5)
+{System.out.print(a+2);
+System.out.print(a-5);}//70
+else 
+System.out.print(a+4);
+
+MCQ-3
+if(!false)
+System.out.print("ice");
+System.out.print("cream");
+else 
+System.out.print("icecream");
+
